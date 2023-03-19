@@ -23,6 +23,8 @@ public class memoryMemberRepositoryTest {
     public void save(){
         Member member = new Member();
         member.setName("뚜기");
+        
+//        테스트용 주석
 
         repository.save(member);
 
